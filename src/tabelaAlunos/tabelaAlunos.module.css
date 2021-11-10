@@ -1,0 +1,36 @@
+
+.filtroContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filtroContainer h4 {
+  margin: 0;
+  color: gray;
+}
+
+.filtroInput label {
+  font-size: 13px;
+  color: gray;
+}
+
+.filtroInput input {
+  outline: none;
+  padding: 5px;
+}
+
+.filtroContainer button {
+  padding: 7px 20px;
+  border: 0;
+  background-color: #00e88f;
+  font-weight: bold;
+  color: #1c1c1c;
+  border-radius: 12px;
+}
+
+.filtroContainer button:hover {
+  cursor: pointer;
+  background-color: #00b36e;
+  color: white;
+}
